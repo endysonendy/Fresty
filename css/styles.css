@@ -576,6 +576,13 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .callout {
+    position: relative;
+    top: 4rem;
+  }
+}
+
 /* Collapsibles */
 .collapsible__header {
   user-select: none;
@@ -813,6 +820,7 @@ a {
 .feature {
   gap: 4rem 2rem;
   margin: 12rem 0;
+  text-align: center;
 }
 
 .feature__heading {
@@ -828,6 +836,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .feature {
+    text-align: left;
+  }
+
   .feature:nth-of-type(even) .feature__content {
     order: 2;
   }
