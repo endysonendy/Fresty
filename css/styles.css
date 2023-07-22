@@ -707,7 +707,8 @@ a {
 }
 
 .nav__brand {
-  transform: translateY(5px);
+  margin-top: 1.5rem;
+  margin-left: 1.3rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -906,7 +907,7 @@ a {
 
 .footer__brand img {
   width: 100%;
-  max-width: 230px;
+  max-width: 200px;
 }
 
 .footer__copyright {
